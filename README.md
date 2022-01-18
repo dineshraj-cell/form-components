@@ -10,17 +10,20 @@
 npm install --save hamoc-react-form
 ```
 
-## Usage
+## Usage Button Component
 
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'hamoc-react-form'
+import ButtonComponent from 'hamoc-react-form'
 import 'hamoc-react-form/dist/index.css'
 
 class Example extends Component {
+  onButtonClicked = () => {
+    console.log('clicked')
+  }
   render() {
-    return <MyComponent />
+    return <ButtonComponent text='Submit' handleClick={onButtonClicked} />
   }
 }
 ```

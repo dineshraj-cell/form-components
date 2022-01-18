@@ -4,7 +4,7 @@
     "description": "The basic form components for hamoc application",
     "author": "Dineshraj Gunasekaran",
     "license": "MIT",
-    "repository": "Dineshraj Gunasekaran/hamoc-react-form",
+    "repository": "https://github.com/dineshraj-cell/form-components",
     "main": "dist/index.js",
     "module": "dist/index.modern.js",
     "source": "src/index.js",
