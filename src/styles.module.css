@@ -1,9 +1,24 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+:root {
+    --blue-primary: #00b4d8;
+    --blue-primary-hover: #0077b6;
+    --white: #ffffff;
+}
+
+.button_primary {
+    background-color: var(--blue-primary);
+    color: var(--white);
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    user-select: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button_primary:hover {
+    background-color: var(--blue-primary-hover);
 }

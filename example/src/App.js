@@ -1,10 +1,13 @@
 import React from 'react'
-
-import { ExampleComponent } from 'hamoc-react-form'
+import ButtonComponent from 'hamoc-react-form'
 import 'hamoc-react-form/dist/index.css'
 
+const onButtonClicked = () => {
+  console.log('clicked')
+}
+
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ButtonComponent text='Submit' handleClick={onButtonClicked} />
 }
 
 export default App
