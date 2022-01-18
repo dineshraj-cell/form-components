@@ -6,8 +6,16 @@
 
 ## Install
 
+If Jfrog is configured, just run the following lines
+
 ```bash
 npm install --save hamoc-react-form
+```
+
+or run
+
+```bash
+npm install --save hamoc-react-form --registry https://trilateral.jfrog.io/artifactory/api/npm/hamoc-npm-local/
 ```
 
 ## Usage Button Component
